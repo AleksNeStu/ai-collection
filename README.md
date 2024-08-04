@@ -1,2 +1,20 @@
 # ai-collection
-AI collection
+AI collection of projects with sub tree
+
+
+# Add sub tree
+
+https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202
+
+```sh
+list_subtrees() {
+  git log --pretty=format: --name-only | grep 'git-subtree-dir' | sed -E 's/.*git-subtree-dir: //' | sort | uniq
+
+}
+git subtree add --prefix=langchain-chatbot-sub/sub https://github.com/shashankdeshpande/langchain-chatbot.git main
+git subtree pull --prefix=langchain-chatbot-sub/sub https://github.com/shashankdeshpande/langchain-chatbot.git main
+list_subtrees
+git status
+```
+
+ 
