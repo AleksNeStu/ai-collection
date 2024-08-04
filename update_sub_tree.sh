@@ -1,7 +1,7 @@
 #!/bin/bash
 
 list_subtrees() {
-  git log --pretty=format: --name-only | grep 'git-subtree-dir' | sed -E 's/.*git-subtree-dir: //' | sort | uniq
+  git log | grep git-subtree-dir | tr -d ' ' | cut -d ":" -f2 | sort | uniq
 }
 
 
