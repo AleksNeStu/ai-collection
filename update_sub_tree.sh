@@ -3,6 +3,7 @@
 list_subtrees() {
   git log | grep git-subtree-dir | tr -d ' ' | cut -d ":" -f2 | sort | uniq
 }
+list_subtrees
 
 
 # List all subtrees and update each one

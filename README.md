@@ -17,4 +17,14 @@ list_subtrees
 git status
 ```
 
+
+
+```sh
+poetry init
+poetry config virtualenvs.in-project true
+poetry env use 3.11
+source .venv/bin/activate
+```
+
+
  

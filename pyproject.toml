@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-collection"
+version = "0.1.0"
+description = "AI collection of projects with sub tree"
+authors = []
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
