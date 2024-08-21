@@ -1,6 +1,11 @@
 # ai-collection
 AI collection of projects with sub tree
 
+# Install deps
+https://github.com/ollama/ollama
+```sh
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
 # Add sub tree
 
