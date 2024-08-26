@@ -1,5 +1,6 @@
 set -e
 source ../.venv/bin/activate
-streamlit run sub/Home.py
+cd sub
+streamlit run Home.py
 
 

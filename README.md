@@ -5,6 +5,10 @@ AI collection of projects with sub tree
 https://github.com/ollama/ollama
 ```sh
 curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3.1
+ollama run llama3.1
+ollama list
+# On Linux (or WSL), the models will be stored at /usr/share/ollama/.ollama/models
 ```
 
 # Add sub tree
