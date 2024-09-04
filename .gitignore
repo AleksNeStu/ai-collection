@@ -165,3 +165,4 @@ tmp
 
 # https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management
 .streamlit
+.codiumai
