@@ -1,4 +1,4 @@
-REPO_URL=$(cat url.txt)
+REPO_URL="https://github.com/shashankdeshpande/langchain-chatbot.git"
 BRANCH="master"
 REPO_NAME=$(basename -s .git $REPO_URL)
 PREFIX="$REPO_NAME/sub"
