@@ -24,6 +24,9 @@ git subtree add --prefix=langchain-chatbot-sub/sub https://github.com/shashankde
 git subtree pull --prefix=langchain-chatbot-sub/sub https://github.com/shashankdeshpande/langchain-chatbot.git main
 list_subtrees
 git status
+# Sub list
+git log --grep='git-subtree-dir' --pretty=format:'%h %s' --reverse
+
 ```
 
 
