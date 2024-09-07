@@ -1,8 +1,8 @@
 #REPO_URL="https://github.com/streamlit/llm-examples.git"
-REPO_URL="https://github.com/anthropics/courses.git"
-ROOT_NAME="anthropics"
+REPO_URL="https://github.com/langchain-ai/streamlit-agent.git"
+ROOT_NAME="streamlit"
 
-BRANCH="master"
+BRANCH="main"
 REPO_NAME=$(basename -s .git $REPO_URL)
 PREFIX="$ROOT_NAME/$REPO_NAME/sub"
 git subtree add --prefix=$PREFIX $REPO_URL $BRANCH
